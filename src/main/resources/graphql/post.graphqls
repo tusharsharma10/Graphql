@@ -1,0 +1,12 @@
+schema{
+query: Query
+}
+
+type Query{
+getAllPosts : [Post]
+}
+
+type Post {
+postId: Int
+description: String
+}
